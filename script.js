@@ -12,4 +12,16 @@ document.addEventListener('DOMContentLoaded', function() {
       form.reset();
     }, 800);
   });
+
+  // Función para manejar los botones de compra
+  const botonesComprar = document.querySelectorAll('.btn-comprar');
+  
+  botonesComprar.forEach(function(boton) {
+    boton.addEventListener('click', function(e) {
+      e.preventDefault();
+      
+      // Abrir directamente la URL de Instagram
+      window.open('https://www.instagram.com/essentiel_uy/', '_blank');
+    });
+  });
 }); 
