@@ -773,6 +773,108 @@ main, .about, .catalogo, .services, .branding-card, .workshops-card, .instagram-
   .arabic-banner {
     height: 160px;
   }
+  .venta-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  .venta-card {
+    width: 100%;
+    max-width: 280px;
+  }
+  .catalogo-venta {
+    padding: 1.5rem 1rem;
+  }
+  .catalogo-venta h2 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .venta-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .venta-card {
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto 1rem auto;
+  }
+  .catalogo-venta {
+    padding: 1rem 0.5rem;
+    margin: 2rem 0.5rem;
+  }
+  .catalogo-venta h2 {
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
+  }
+  .venta-card h3 {
+    font-size: 1.1rem;
+  }
+  .venta-card p {
+    font-size: 0.9rem;
+  }
+  .precio {
+    font-size: 1rem;
+  }
+  .btn-comprar {
+    font-size: 1rem;
+    padding: 0.7rem 1.5rem;
+  }
+  .navbar {
+    padding: 1rem 0.5rem;
+  }
+  .logo {
+    font-size: 2rem;
+  }
+  .hero h1 {
+    font-size: 1.8rem;
+  }
+  .hero p {
+    font-size: 1rem;
+  }
+  .perfume-card {
+    width: 100%;
+    max-width: 280px;
+  }
+  .service-cards {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .card {
+    flex: 1 1 auto;
+    min-width: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .venta-card {
+    max-width: 280px;
+  }
+  .catalogo-venta h2 {
+    font-size: 1.4rem;
+  }
+  .venta-card h3 {
+    font-size: 1rem;
+  }
+  .venta-card p {
+    font-size: 0.85rem;
+  }
+  .precio {
+    font-size: 0.95rem;
+  }
+  .btn-comprar {
+    font-size: 0.9rem;
+    padding: 0.6rem 1.2rem;
+  }
+  .hero h1 {
+    font-size: 1.6rem;
+  }
+  .hero p {
+    font-size: 0.9rem;
+  }
+  .logo {
+    font-size: 1.8rem;
+  }
 }
 
 @media (max-width: 800px) {
